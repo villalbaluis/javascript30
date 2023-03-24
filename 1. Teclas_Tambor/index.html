@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambor - Teclado</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <h1 class="titulo">Presiona una tecla, y reproduce su sonido</h1>
+    <div class="teclas">
+        <div data-key="65" class="tecla">
+            <kdb>A</kdb><br>
+            <span class="sonido">Do</span>
+        </div>
+        <div data-key="83" class="tecla">
+            <kdb>S</kdb><br>
+            <span class="sonido">Re</span>
+        </div>
+        <div data-key="68" class="tecla">
+            <kdb>D</kdb><br>
+            <span class="sonido">Mi</span>
+        </div>
+        <div data-key="70" class="tecla">
+            <kdb>F</kdb><br>
+            <span class="sonido">Fa</span>
+        </div>
+        <div data-key="71" class="tecla">
+            <kdb>G</kdb><br>
+            <span class="sonido">Sol</span>
+        </div>
+        <div data-key="72" class="tecla">
+            <kdb>H</kdb><br>
+            <span class="sonido">La</span>
+        </div>
+        <div data-key="74" class="tecla">
+            <kdb>J</kdb><br>
+            <span class="sonido">Si</span>
+        </div>
+        <div data-key="75" class="tecla">
+            <kdb>K</kdb><br>
+            <span class="sonido">Xd</span>
+        </div>
+        <div data-key="76" class="tecla">
+            <kdb>L</kdb><br>
+            <span class="sonido">Hi</span>
+        </div>
+    </div>
+
+
+    <audio data-key="65" src="sonidos/boom.wav"></audio>
+    <audio data-key="83" src="sonidos/clap.wav"></audio>
+    <audio data-key="68" src="sonidos/hihat.wav"></audio>
+    <audio data-key="70" src="sonidos/kick.wav"></audio>
+    <audio data-key="71" src="sonidos/openhat.wav"></audio>
+    <audio data-key="72" src="sonidos/ride.wav"></audio>
+    <audio data-key="74" src="sonidos/snare.wav"></audio>
+    <audio data-key="75" src="sonidos/tink.wav"></audio>
+    <audio data-key="76" src="sonidos/tom.wav"></audio>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
