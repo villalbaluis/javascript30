@@ -1,0 +1,28 @@
+:root {
+    --espaciado: 10px;
+    --desenfoque: 10px;
+    --color_base: yellow;
+}
+
+img{
+    padding: var(--espaciado);
+    background: var(--color_base);
+    filter: blur(var(--desenfoque));
+}
+
+.h1 {
+    color: var(--color_base);
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.controles {
+    margin-bottom: 50px;
+}
